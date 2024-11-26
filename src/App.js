@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ButtonShowcase from "./component/buttonShowCase";
+import ModernButtons from "./component/moderButtons";
+import InteractiveButtons from "./component/InteractiveButtons";
+import AdvancedInteractiveCard from "./component/card";
+import Dropdown from "./component/dropdown";
+import Form7 from "./component/form7";
+import ModernLoginForm from "./component/form7";
+import SearchInput from "./component/searchInput";
+import Input from "./component/Input";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex items-center justify-center w-screen h-screen bg-slate-500">
+      <Input/>
     </div>
   );
-}
+};
 
 export default App;
